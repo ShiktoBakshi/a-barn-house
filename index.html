@@ -1,22 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- tailwind cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>A-barn-house</title>
+   
     <!-- Fontawesome kit -->
-
+    <script src="https://kit.fontawesome.com/067b8f765e.js" crossorigin="anonymous"></script>
     <!-- google font  -->
-     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisy-ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+      <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                common:'#abef5f',
+                primarybg:'f4f4f4',
+                light:'#eefcdf',
+                colorp:'#494949',
+              }
+            }
+          }
+        }
+      </script>
+    
 </head>
 <body>
     <!-- header section start -->
     <header>
         <!-- nav section start -->
         <nav>
-
+       
         </nav>
         <!-- nav section end-->
 
@@ -31,13 +54,39 @@
  <!-- main section start  -->
     <main>
 
+ <!-- Our Latest Portfolio -->
+  <section class=" ">
+    <h4 class=" text-center bg-light w-[220px]  rounded-2xl mx-auto text-black mb-4  "><i class="  fa-solid fa-arrow-right"></i>Explore Our Latest Works</h4>
+    <h1 class="text-center text-black text-4xl font-bold">Our Latest Portfolio</h1>
+    <p class="text-center text-colorp">Perfect for trendsetters and those who breathe life into aesthetics</p>
+
+  </section>
+ <!-- Let’s Discuss Next Project -->
+   <section class="">
+
+   </section>
     </main>
  <!-- main section end  -->
 
 <!-- footer section start -->
-    <footer>
-
-    </footer>
+   
+      <footer class="footer footer-center bg-base-200 text-base-content rounded p-10 ">
+        <h3 class="flex text-2xl font-extrabold"><i class="bg-common -rotate-45 rounded-2xl  px-1.5   text-xl text-black fa-solid fa-arrow-right"></i>Rinterio</h3>
+        <p class="text-[#737373]">Imagine a place where you can sip your morning coffee under high ceilings, surrounded by exposed beams and abundant natural light. That’s a barn-style home</p>
+        <nav class="grid grid-flow-row sm:grid-flow-col
+        gap-12">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+       
+        <aside>
+           <button class="bg-common text-black font-extrabold text-sm py-3 px-16 rounded-3xl  md:py-2 md:px-4 md:rounded-3xl   " >Book consult  <i class="fa-solid fa-arrow-right -rotate-45 px-1 py-1 bg-black rounded-xl  text-white "></i></button>
+        </aside>
+      </footer>
+ 
     <!-- footer section end -->
 </body>
 </html>
